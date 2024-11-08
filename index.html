@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love You</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 80%;
+            animation: fadeIn 2s ease-in-out;
+        }
+        h1 {
+            font-size: 3em;
+            color: #ff5e78;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            color: #4a4a4a;
+        }
+        .heart {
+            font-size: 2em;
+            color: #ff5e78;
+            animation: pulse 1s infinite;
+        }
+        .login-info {
+            margin-top: 20px;
+            color: #555;
+            font-size: 1.1em;
+            background-color: #f0f8ff;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>I Love You</h1>
+        <p>My dear Akarsha,</p>
+        <p>You mean the world to me!</p>
+        <div class="heart">❤️</div>
+        <div class="login-info">
+            <p><strong>Username:</strong> Akarsha</p>
+            <p><strong>Password:</strong> Madushan1#</p>
+        </div>
+    </div>
+</body>
+</html>
